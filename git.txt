@@ -1,0 +1,17 @@
+
+git init      "ينشأ مستودع جديد"
+git add .      "اضيف كل الملفات الى المستودع
+git commit -m    "ترسل تعليق"
+git status        "حاله المستودع"
+git branch -a      "يعرض كل فرع في المستودع"
+git branch  " "     "ينشأ فرع"
+git switch " "
+git branch -d "name"   "يحذف الفرع"
+git branch -m "new name" "يبدل اسم الفرع"
+
+
+git log --oneline -- a.txt
+
+git show 3867e7c:a.txt
+
+git checkout 3867e7c -- a.txt
